@@ -1,5 +1,6 @@
-import withStylus from '@zeit/next-stylus';
-export default withStylus({
+const withStylus = require('@zeit/next-stylus')
+
+module.exports = withStylus({
   cssModules: true,
   cssLoaderOptions: {
     importLoaders: 1,
