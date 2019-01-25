@@ -1,5 +1,7 @@
-import '../src/stylus/main.styl'
+import Page from '../components/layout'
 
 export default () => (
-  <h1>Artco be</h1>
+  <Page>
+    <h1>Artco be</h1>
+  </Page>
 )
