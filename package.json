@@ -1,0 +1,30 @@
+{
+  "name": "artco",
+  "version": "1.0.0",
+  "description": "image galary for creatives",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swssr/artco.git"
+  },
+  "keywords": [
+    "art"
+  ],
+  "author": "Simo Ngquseka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swssr/artco/issues"
+  },
+  "homepage": "https://github.com/swssr/artco#readme",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
